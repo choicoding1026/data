@@ -10,6 +10,7 @@ import numpy as np
 
 # numpy 랜덤 값 실습 #
 #   1. 임의의 실수 값 반환: [0,1) => 0<= 값 < 1
+np.random.seed(1234)
 data = np.random.random()
 data5 = np.random.random(5)
 print(data)
